@@ -1,4 +1,4 @@
-# 4g-virtualized
+# ACIT5930-artefact
 OAI 4G RAN and EPC running in VBox 
 
 ### Purpose of this project
