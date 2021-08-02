@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Starts each EPC component with a 2 second pause
 
 echo "Starting HSS ..."
 sudo -E docker exec -d mn.hss /bin/bash -c "nohup ./bin/oai_hss -j ./etc/hss_rel14.json --reloadkey true > hss_check_run.log 2>&1"

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script collects all configuration files, log files, and packetdumps, then zips everything together.
 
 echo "Starting application log and PCAP collection"
 sudo rm -rf EPC

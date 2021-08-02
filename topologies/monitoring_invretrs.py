@@ -1,5 +1,14 @@
 #!/usr/bin/python
 
+"""
+This topology was designed to investigate a problem with high TCP retransmissions between UE and Iperf3 server.
+
+A simple Iperf3 test between a new node connected directly to SPGW-U and the Iperf3 server show no increase
+in TCP retransmissions with high bandwidth (30mbps).
+
+We conclude that TCP retransmissions will increase with higher bandwidths between the UE and Iperf3 server.
+"""
+
 from mininet.net import Containernet
 from mininet.node import Controller, Node, OVSKernelSwitch
 from mininet.cli import CLI

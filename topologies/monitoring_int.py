@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+"""
+This topology configures the BMV2 switches to use the timestamping.p4 program, which uses the interarrival times
+between sequential packets to detect delay between the BMV2 switches. 
+"""
+
+
 from mininet.net import Containernet
 from mininet.node import Controller, Node, OVSKernelSwitch
 from mininet.cli import CLI

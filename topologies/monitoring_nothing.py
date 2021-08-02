@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+"""
+This Topology is used to establish the baseline measurements between UE and the Iperf3 server.
+It does not have any additional monitoring.
+It uses the basic forwarder.p4 program to allow IP forwarding on the BMV2 switches.
+"""
+
+
 from mininet.net import Containernet
 from mininet.node import Controller, Node, OVSKernelSwitch
 from mininet.cli import CLI

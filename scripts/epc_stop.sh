@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Stops each EPC component and the Tshark process, first with SIGINT, then SIGKILL to ensure they are shut down.
 
 echo "Sending SIGINT to EPC component processes and Tshark ..."
 sudo -E docker exec -it mn.hss /bin/bash -c "killall --signal SIGINT oai_hss tshark"

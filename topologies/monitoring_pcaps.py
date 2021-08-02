@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+This topology will set up packet capturing on the BMV2 switches.
+To set up packet capturing on the individual EPC containers, use the script "epc_pcap.sh"
+"""
+
 from mininet.net import Containernet
 from mininet.node import Controller, Node, OVSKernelSwitch
 from mininet.cli import CLI

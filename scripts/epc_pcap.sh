@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Sets up all containers with Tshark for Packet Capturing
 
 echo "Starting Tshark on all FOP4 network hosts: HSS, MME, SPGW-C, SPGW-U, Forwarder, Iperf_dst"
 # Start network logs
