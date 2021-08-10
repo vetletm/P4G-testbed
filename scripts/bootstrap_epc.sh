@@ -9,6 +9,7 @@ usermod -aG vboxsf netmon
 
 # Prepare relevant folders and permissions
 mkdir -p /home/netmon/src/openair-components
+mkdir -p /home/netmon/src/archives
 chown -R netmon:netmon /home/netmon/src
 
 # ENVs to properly pull and build Docker images
