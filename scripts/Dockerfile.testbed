@@ -1,0 +1,15 @@
+FROM ubuntu:bionic
+MAINTAINER vetlemoen@gmail.com
+
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    iperf3 \
+    tshark \
+    less \
+    nano \
+    iptables \
+    ethtool
+
+CMD /bin/bash
