@@ -1,5 +1,5 @@
 # ACIT5930-artefact
-OAI 4G RAN and EPC running in VBox
+OAI 4G RAN and EPC running in VBox with FOP4 to integrate BMV2 switches into the EPC.
 
 ### Purpose of this project
 This is the artefact for my Master project in Applied Computer and Information Technology, with a specialisation in Cloud-based Services and Operations. The thesis aims to investigate the performance impact of In-Band Network Telemetry (INT) on a 4G LTE EPC realized as Virtualized Network Functions (VNF). The repository contains all the necessary code and scripts to deploy a functional RAN and EPC in a VirtualBox environment.
