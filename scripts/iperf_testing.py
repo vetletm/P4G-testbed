@@ -132,7 +132,7 @@ def main():
           f' {arg_pause} seconds pause between each run and store results to {filename}')
     results = []
     for i in range(1, arg_runs + 1):
-        # Wrap in try-except to ensure results are written to fail even in failure
+        # Wrap with try-except block to ensure results are written to file even in failure
         try:
             print(f'performing run {i} of {arg_runs}')
             to_add = run_test(bind_addr=arg_bind,
